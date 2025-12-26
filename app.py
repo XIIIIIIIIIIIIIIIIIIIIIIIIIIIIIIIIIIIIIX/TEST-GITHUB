@@ -25,4 +25,6 @@ if __name__ == "__main__":
     print(saluer("Développeur"))
     print(f"2 + 3 = {calculer_somme(2, 3)}")
     print(f"4 × 5 = {multiplier(4, 5)}")
+    print(f"10 ÷ 2 = {diviser(10, 2)}")
+    # TODO: Ajouter plus d'opérations
 
