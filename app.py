@@ -15,6 +15,12 @@ def multiplier(a: int, b: int) -> int:
     """Multiplie deux nombres."""
     return a * b
 
+def diviser(a: int, b: int) -> float:
+    """Divise deux nombres avec gestion de la division par zéro."""
+    if b == 0:
+        raise ValueError("Impossible de diviser par zéro !")
+    return a / b
+
 if __name__ == "__main__":
     print(saluer("Développeur"))
     print(f"2 + 3 = {calculer_somme(2, 3)}")
